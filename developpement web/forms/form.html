@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ISEEM | Forms</title>
+</head>
+<style>
+  form{
+    border:solid .5px lightgray  ;
+    background-color: rgb(206, 214, 214);
+  }
+  h1{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: cadetblue;
+  }
+  label{
+    color: rgb(17, 39, 84);
+  }
+  input{
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    background: transparent;
+    border-bottom: solid .5px rgb(20, 22, 143);
+  }
+ 
+  
+</style>
+<body>
+  <h1 align="center">Forms</h1>
+  <form>
+    <label for="nom">Nom :</label> 
+    <input type="text" placeholder="Enter your first name"> <br><br>
+    <label for="prenom">Prenom :</label> 
+    <input type="text" placeholder="Enter your last name"> <br><br>
+    <label for="mail">E-mail :</label> 
+    <input type="email" placeholder="Enter your e-mail"> <br><br>
+    <label for="Password">Create Password :</label> 
+    <input type="password"> <br><br>
+    <label for="gender">Sexe</label>
+    <input type="radio" value="Homme" name="gender"><span>M
+    <input type="radio" value="Femme" name="gender"><span>F  
+    </span>
+    <input type="radio" value="Femme" name="gender"><span>Other <br><br>
+
+    <label for="paye">Paye</label>
+    <select >
+      <option value="Maroc">Maroc</option>
+      <option value="France">France</option>
+      <option value="USA">USA</option>
+    </select>
+
+    <br><br>
+    <label for="message">Message</label><br>
+    <textarea  cols="30" rows="10" placeholder="Write your message here"></textarea><br><br>
+
+<button type="submit">Valider</button>
+  </form>
+</body>
+</html>

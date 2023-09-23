@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ISEEM | Exercices de revision</title>
+  <style>
+    h1{
+      text-align: center;
+      text-decoration: underline;
+      text-transform: uppercase;
+      color: yellowgreen;
+    }
+    h2{
+      font-size: 18px;
+      font-family: verdana;
+      color: darkblue;
+    }
+    table{
+      width: 60vw;
+      height: 30vh;
+      margin: auto;
+      background-color: rgb(240, 242, 243);
+    }
+    input{
+      width: 80px;
+      height: 30PX;
+    }
+    tr{
+      border: solid 1px #B35A5A;
+    }
+    textarea{
+      width: 98%;
+      height: 99%;
+      background-color: aliceblue;
+    }
+    #name-fild{
+      width: 98%;
+      background-color: aliceblue;
+    }
+    .btn{
+      background-color: darkgoldenrod;
+      transition: ease-in-out .4s;
+    }
+    .btn:hover{
+      background-color: rgb(168, 100, 10);
+    }
+  </style>
+</head>
+<body>
+  <h1>Exercices de revision</h1>
+  <table border=".5" cellspacing="0">
+    <thead>
+      <tr>
+        <th colspan="2" bgcolor="yellow"><h2>Ajouter un message</h2></th> 
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <tr>
+          <td bgcolor="#E1E7F7">Votre Nom</td>
+          <td><input type="text" id="name-fild"></td>
+        </tr>
+        <tr>
+          <td bgcolor="#E1E7F7">Message</td>
+          <td><textarea placeholder="Write your message here" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+          <td align="right"><input class="btn" type="button" value="Effacer"></td>
+          <td><input class="btn" type="button" value="Envoyer"></td>
+        </tr>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

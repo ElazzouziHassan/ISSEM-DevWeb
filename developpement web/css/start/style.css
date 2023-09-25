@@ -1,0 +1,17 @@
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+p{
+  text-align: center;
+  color: brown;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+.p{
+  text-align: center;
+  color: green;
+  font-weight: normal;
+  font-family: serif;
+}

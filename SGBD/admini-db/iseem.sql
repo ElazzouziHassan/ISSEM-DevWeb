@@ -47,6 +47,7 @@ UPDATE `artist`
 ;
 
 SELECT * FROM `artist` WHERE id = 0;
+SELECT nom,role_played FROM `artist`;
 
 
 

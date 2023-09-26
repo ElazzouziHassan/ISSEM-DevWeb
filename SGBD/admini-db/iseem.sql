@@ -38,6 +38,14 @@ ALTER TABLE `film`
   RENAME TO `movie`;
 
 INSERT INTO `artist`(nom,role_played) VALUES('Oumnia Sabri', 'Aria stark');
+INSERT INTO `artist`(id,nom,role_played) VALUES(1,'Hassan', 'Lord Stark');
+INSERT INTO `artist`(id,nom,role_played) VALUES(2,'wizardy', 'wizardy');
+
+UPDATE `artist`
+  set role_played = 'lady of the North'
+  WHERE id = 0
+;
+
 
 
 

@@ -5,12 +5,33 @@ CREATE DATABASE iseem_db;
 USE iseem_db;
 
 -- pour creer une table :
-CREATE TABLE `class`(
-   id INT NOT NULL PRIMARY KEY,
-    nom_class VARCHAR(255) NOT NULL,
-    nb_etd INT NOT NULL,
-    nb_class INT NOT NULL
+CREATE TABLE `film`(
+  id INT NOT NULL PRIMARY KEY,
+  nom VARCHAR(255) NOT NULL,
+  dure INT NOT NULL,
+  anne_sortie INT NOT NULL,
+  id_artist INT NOT NULL
 );
+
+CREATE TABLE `artist`(
+  id INT NOT NULL PRIMARY KEY,
+  nom VARCHAR(255) NOT NULL,
+  role_played INT NOT NULL
+);
+
+-- DROP Table film;
+
+ALTER TABLE `film` 
+  ADD FOREIGN KEY (`id_artist`) 
+  REFERENCES `artist`(`id`) 
+  ON DELETE RESTRICT 
+  ON UPDATE RESTRICT
+;
+
+
+
+
+
 
 
 

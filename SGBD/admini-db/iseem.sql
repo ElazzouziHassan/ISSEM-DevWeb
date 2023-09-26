@@ -46,9 +46,7 @@ UPDATE `artist`
   WHERE id = 0
 ;
 
-
-
-
+SELECT * FROM `artist` WHERE id = 0;
 
 
 

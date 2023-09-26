@@ -1,0 +1,5 @@
+-- Active: 1678706437666@@127.0.0.1@3306@imdb
+CREATE DATABASE imdb;
+
+USE imdb;
+

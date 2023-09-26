@@ -50,6 +50,16 @@ SELECT * FROM `artist` WHERE id = 0;
 SELECT nom,role_played FROM `artist`;
 
 
+INSERT INTO `movie` VALUES(1,'GOT', 300,1997,1,'Maroc');
+INSERT INTO `movie` VALUES(2,'movie1', 200,2002,2,'Maroc');
+INSERT INTO `movie` VALUES(3,'movie2', 198,2022,0,'USA');
+
+
+SELECT nom FROM `movie` WHERE anne_sortie > 2000 AND pays = 'Maroc';
+
+SELECT * FROM `movie` WHERE pays = 'Maroc';
+
+
 
 
 

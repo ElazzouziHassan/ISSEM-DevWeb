@@ -575,5 +575,3 @@ INSERT INTO `Role` (`id_film`, `id_acteur`, `nom_role`) VALUES
 (63, 22, 'Eddie Scrap-Iron Dupris'),
 (63, 224, 'Maggie Fitzerald'),
 (67, 2, 'Marie Antoinette');
-
-

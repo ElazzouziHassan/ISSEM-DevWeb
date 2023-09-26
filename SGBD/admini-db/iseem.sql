@@ -20,13 +20,24 @@ CREATE TABLE `artist`(
 );
 
 -- DROP Table film;
-
+-- ajouter un FOREIGN key
 ALTER TABLE `film` 
   ADD FOREIGN KEY (`id_artist`) 
   REFERENCES `artist`(`id`) 
   ON DELETE RESTRICT 
   ON UPDATE RESTRICT
 ;
+-- ajouter un coloumn :
+ALTER TABLE `film`
+  ADD pays VARCHAR(255);
+
+ALTER TABLE `film`
+  MODIFY pays VARCHAR(120) NOT NULL;
+
+ALTER TABLE `film`
+  RENAME TO `movie`;
+
+
 
 
 

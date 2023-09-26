@@ -16,10 +16,10 @@ CREATE TABLE `film`(
 CREATE TABLE `artist`(
   id INT NOT NULL PRIMARY KEY,
   nom VARCHAR(255) NOT NULL,
-  role_played INT NOT NULL
+  role_played VARCHAR(255) NOT NULL
 );
 
--- DROP Table film;
+-- DROP Table artist;
 -- ajouter un FOREIGN key
 ALTER TABLE `film` 
   ADD FOREIGN KEY (`id_artist`) 
@@ -36,6 +36,8 @@ ALTER TABLE `film`
 
 ALTER TABLE `film`
   RENAME TO `movie`;
+
+INSERT INTO `artist`(nom,role_played) VALUES('Oumnia Sabri', 'Aria stark');
 
 
 

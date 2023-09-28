@@ -25,9 +25,8 @@ p{
   margin-top: 10px;
   font-size: 16px;
 }
-.p1{
-  color: red;
-}
+.p1{ color: red; }
+
 .p2{
   color: green;
   border: double;

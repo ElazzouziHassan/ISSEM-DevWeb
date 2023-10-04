@@ -33,11 +33,9 @@ CREATE TABLE `artiste` (
   `prenom` varchar(255) NOT NULL,
   `annee_naissance` date DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
 --
 -- Dumping data for table `artiste`
 --
-
 INSERT INTO `artiste` (`id`, `nom`, `prenom`, `annee_naissance`) VALUES
 (1, 'Coppola', 'Sofia', '0000-00-00'),
 (2, 'Dunst', 'Kirsten', NULL),

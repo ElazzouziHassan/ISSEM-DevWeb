@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <title>ISEEM | BOOTSTRAP</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Wizardy</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">UI/UX Design</a></li>
+              <li><a class="dropdown-item" href="#">Web Developement</a></li>
+              <li><a class="dropdown-item" href="#">API Developement</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="card" style="display: flex; flex-direction: row;">
+    <div class="card" style="width: 33rem; padding: .5rem; margin: .5rem;">
+      <img style="height: 40vh;" src="https://images.pexels.com/photos/4709289/pexels-photo-4709289.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Web development</h5>
+        <p class="card-text">
+          Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web application
+        </p>
+        <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 33rem; padding: .5rem; margin: .5rem;">
+      <img style="height: 40vh;" src="https://images.pexels.com/photos/6963944/pexels-photo-6963944.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">API development</h5>
+        <p class="card-text">
+          An application programming interface (API) is a way for two or more computer programs to communicate with each other. It is a type of software interface, offering a service to other pieces of software
+        </p>
+        <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 33rem; padding: .5rem; margin: .5rem;">
+      <img style="height: 40vh;" src="https://th.bing.com/th/id/R.4846a8c1dd0bb338e0fb83969fb2115f?rik=YYbg4CM47ZEWIA&riu=http%3a%2f%2fwww.vizteams.com%2fwp-content%2fuploads%2f2014%2f04%2fcloud-computing.jpg&ehk=5VJ03oz4UU1R1WZTAGzHVEfWGD%2bYVxjuG0G1Gr8VghA%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">cloud computing</h5>
+        <p class="card-text">
+          Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. Large clouds often have 
+        </p>
+        <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="display: flex; flex-direction: row; justify-content: space-between; margin-left: .5rem; margin-right: .5rem; margin-bottom: 20px;">
+    <div class="card" style="width: 22rem; padding: .5rem;">
+      <img src="https://ecoleiseem.com/wp-content/uploads/2023/06/courses-1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Devenir Animateur HSE (Hygiène Sécurité Environement).</h5>
+        <p class="card-text">
+          Mr Abderrafii  <button type="button" class="btn btn-success">S'inscrire</button>
+        </p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 22rem; padding: .5rem;">
+      <img src="https://ecoleiseem.com/wp-content/uploads/2023/06/courses-3.1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Devenir Animateur HSE (Hygiène Sécurité Environement).</h5>
+        <p class="card-text">
+          Elkamouny <button type="button" class="btn btn-success">S'inscrire</button>
+        </p>
+      </div>
+    </div>
+
+    <div class="card" style="width: 22rem; padding: .5rem;">
+      <img src="https://ecoleiseem.com/wp-content/uploads/2023/06/courses-2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Devenir Animateur HSE (Hygiène Sécurité Environement).</h5>
+        <p class="card-text">
+          Mr Zakaria <button type="button" class="btn btn-success">S'inscrire</button>
+        </p>
+      </div>
+    </div>
+
+    <div style="width: 22rem; padding: .5rem;">
+      <img src="https://ecoleiseem.com/wp-content/uploads/2023/06/courses-4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Devenir Animateur HSE (Hygiène Sécurité Environement).</h5>
+        <p class="card-text">
+          Mr Abderrafii <button type="button" class="btn btn-success">S'inscrire</button>
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

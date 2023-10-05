@@ -6,7 +6,12 @@
   <title>PHP | Tutorial</title>
 </head>
 <body>
-  <?php echo "<h1 align='center'>Hello, World!</h1>" ?>
+  <?php 
+    echo `
+      <h1 align='center'>Hello, World!</h1>
+      <h2 align='center'>Lets learn php</h2>
+    `
+  ?>
 </body>
 </html>
 
